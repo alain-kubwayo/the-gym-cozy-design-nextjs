@@ -6,7 +6,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: ['Fraunces', 'cursive'],
+        secondary: ['Poppins', 'cursive'], // alternative to Geomanist
+        tertiary: ['Merriweather', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
