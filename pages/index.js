@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Help from '../components/sections/Help'
+import Hero from '../components/sections/Hero'
 
 export default function Home() {
   return (
@@ -10,9 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="font-tertiary font-bold text-5xl">
-        Hello world
-      </h1>
+      <Hero />
+      <Help />
       
     </div>
   )
