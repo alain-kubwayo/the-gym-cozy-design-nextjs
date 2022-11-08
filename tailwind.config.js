@@ -29,6 +29,7 @@ module.exports = {
         }
       },
       fontSize: {
+        'xs-md': '0.8125rem',
         '2.5xl': '1.5625rem',
         '4.5xl': '2.5rem',
         '7.5xl': '5.625rem',
@@ -51,6 +52,9 @@ module.exports = {
       lineHeight: {
         '4.5': '1.1em',
         '5.5': '1.3em',
+      },
+      margin:{
+        0.75: '0.1875rem',
       }
      
     },
