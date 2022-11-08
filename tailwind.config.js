@@ -8,9 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Fraunces', 'cursive'],
-        secondary: ['Poppins', 'cursive'], // alternative to Geomanist
-        tertiary: ['Merriweather', 'cursive']
+        'fraunces': "Fraunces72ptsupersoft,sans-self",
+       
       },
       colors: {
         primary: {
@@ -34,7 +33,11 @@ module.exports = {
       },
       padding: {
         3.75: '0.9375rem'
+      },
+      backgroundImage: {
+        'gradient-nav': 'linear-gradient(270deg,#302f39,#223240 95%)',
       }
+     
     },
   },
   plugins: [],
