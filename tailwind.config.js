@@ -28,6 +28,12 @@ module.exports = {
         tertiary: {
           100: '#d90f54',
         }
+      },
+      fontSize: {
+        '2.5xl': '1.5625rem',
+      },
+      padding: {
+        3.75: '0.9375rem'
       }
     },
   },
