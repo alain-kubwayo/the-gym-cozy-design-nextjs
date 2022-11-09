@@ -6,7 +6,7 @@ const Designer = () => {
     return ( 
         <section>
             <div className="relative lg:h-500">
-                <video width="" height="" autoPlay className="absolute object-cover w-full h-full">
+                <video width="" height="" autoPlay muted loop className="absolute object-cover w-full h-full">
                         <source src="/assets/designer/video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
