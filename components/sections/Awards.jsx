@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "../buttons/Button";
+import Wrapper from "../Wrapper";
 
 const firstAccreditors = [
     {
@@ -56,27 +57,33 @@ const secondAccreditors = [
 
 const Awards = () => {
     return ( 
-        <section>
-            <div>
-                <p>🌴🐻🇺🇸</p>
-                <h2 className="font-fraunces72 text-6.75xl text-secondary-200">Get Cozy</h2>
-                <h3 className="text-primary-400 text-37px font-fraunces72">Design & digital marketing in San Diego, California</h3>
-                <p className="text-secondary-200 text-xl-md">We’re an award-winning design shop based in South Park, San Diego. We efficiently combine the best parts of user experience (UX) with creative design and execution to create effective collateral that connects with the human beings who interact with them. 🤯</p>
-                <p className="text-secondary-200 text-xl-md">No epic quests for inspiration. Just pragmatic collaboration and efficient results from big-agency graduates with decades of experience.</p>
-                <Button text="why we do what we do"/>
-            </div>
-            <div>
-                <div>
-                    {
-                        firstAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
-                    }
+        <section className="bg-awards-noise bg-primary-100">
+            <Wrapper style="lg:max-w-[1000px]">
+                <div className="grid py-40 lg:grid-cols-2">
+                    <div className="lg:pl-[120px] lg:pr-[30px] lg:pb-20">
+                        <p className="pb-8 text-3xl">🌴🐻🇺🇸</p>
+                        <h2 className="font-fraunces72 text-6.75xl text-secondary-200">Get Cozy</h2>
+                        <h3 className="pb-10 text-primary-400 text-37px font-fraunces72">Design & digital marketing in San Diego, California</h3>
+                        <p className="pb-4 text-secondary-200 text-xl-md">We’re an award-winning design shop based in South Park, San Diego. We efficiently combine the best parts of user experience (UX) with creative design and execution to create effective collateral that connects with the human beings who interact with them. 🤯</p>
+                        <p className="pb-8 text-secondary-200 text-xl-md">No epic quests for inspiration. Just pragmatic collaboration and efficient results from big-agency graduates with decades of experience.</p>
+                        <Button>why we do what <br className="block md:hidden" /> we do</Button>
+                    </div>
+                    <div className="pt-20 lg:pt-0">
+                        <div className="flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center justify-end h-full lg:gap-x-10 px-3.75">
+                            <div className="flex flex-col gap-y-10">
+                                {
+                                    firstAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
+                                }
+                            </div>
+                            <div className="flex flex-col gap-y-10 lg:gapy-y-0 items-center lg:justify-between h-full px-3.75">
+                                {
+                                    secondAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
+                                }
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    {
-                        secondAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
-                    }
-                </div>
-            </div>
+            </Wrapper>
         </section>
      );
 }

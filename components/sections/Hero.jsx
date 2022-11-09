@@ -12,7 +12,7 @@ const Hero = () => {
                     </h1>
                     <p className="leading-5.5 bg-primary-100 text-3xl lg:text-4.5xl font-fraunces72 my-[20px] py-[10px] w-full lg:w-1/2 bg-text-noise bg-clip-text text-transparent">Full-service design support that growing B2B and non-profit organizations need. Are you strained because you should have a design team but you don't?</p>
                     <div className="mt-10 mb-6">
-                        <Button text="See How We Work & How We Can Do" />
+                        <Button>See How We <br className="block md:hidden" /> Work & How We Can <br className="block md:hidden" />Do</Button>
                     </div>
                     <Image src="/assets/hero.png" width={740} height={853} className="mt-20 -mb-12 lg:absolute -bottom-32 -right-20" />
                 </div>

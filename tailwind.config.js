@@ -44,6 +44,7 @@ module.exports = {
         'gradient-hero': 'linear-gradient(90deg,#302f39,#223240 95%)',
         'noise': 'url("/assets/noise.webp")',
         'text-noise': 'url("/assets/noise-2.webp")',
+        'awards-noise': 'url("/assets/awards/awards-noise.webp")',
       },
       padding: {
         3.75: '0.9375rem',
