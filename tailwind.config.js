@@ -28,6 +28,8 @@ module.exports = {
         tertiary: {
           100: '#d90f54',
           200: '#1da1f2',
+          300: '#2D4850',
+          400: '#7B4E49',
         }
       },
       fontSize: {
@@ -104,6 +106,10 @@ module.exports = {
       flexBasis: {
         '40rem': '40rem',
       },
+      inset: {
+        '3%': '3%',
+        '90%': '90%',
+      }
      
      
     },

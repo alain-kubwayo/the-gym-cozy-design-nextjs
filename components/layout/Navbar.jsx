@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return ( 
-        <nav className="fixed w-full bg-gradient-nav">
+        <nav className="fixed top-0 z-50 w-full bg-gradient-nav">
             <div className="flex items-center justify-center w-full pl-10 pr-6 md:justify-between">
                 <div className="py-5 px-3.75">
                     <Image src="/assets/logos/logo-secondary.svg" width={100} height={68.66} alt="Logo" />

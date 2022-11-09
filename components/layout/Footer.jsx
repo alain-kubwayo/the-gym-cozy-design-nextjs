@@ -19,7 +19,7 @@ const Footer = () => {
     }
     return ( 
         <footer className="pt-12 pb-6 font-fraunces72 bg-primary-100">
-            <Wrapper>
+            <Wrapper style="md:!px-20">
                 <div className="flex flex-col items-center gap-4 px-6 lg:flex-row">
                     <div className="">
                         <Image src="/assets/logos/logo-primary.svg" width={73} height={50} alt="Logo" />
@@ -49,7 +49,7 @@ const Footer = () => {
                     <div className="flex flex-wrap gap-8 lg:gap-10 lg:max-w-2xl">
                         <div>
                             <Image src="/assets/footer/asset-2.svg" width={140} height={53} alt="Image" />
-                            <p className="text-center">BBB Rating: +A</p>
+                            <p className="text-sm font-bold text-center text-tertiary-300">BBB Rating: +A</p>
                         </div>
                         <div>
                             <Image src="/assets/footer/asset-3.png" width={140} height={73} alt="Image" />
