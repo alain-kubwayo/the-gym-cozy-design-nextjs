@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         'fraunces72': 'Fraunces72ptsupersoft,sans-serif',
         'fraunces144': 'Fraunces144ptsupersoft,sans-serif',
+        'geomanist': 'Geomanist',
       },
       colors: {
         primary: {
@@ -30,8 +31,12 @@ module.exports = {
       },
       fontSize: {
         'xs-md': '0.8125rem',
+        'xl-md': '1.25rem',
         '2.5xl': '1.5625rem',
+        '37px': '2.3125rem',
         '4.5xl': '2.5rem',
+        '6.5xl': '3.8125rem',
+        '6.75xl': '4.375rem',
         '7.5xl': '5.625rem',
       },
       backgroundImage: {
@@ -55,6 +60,9 @@ module.exports = {
       },
       margin:{
         0.75: '0.1875rem',
+      },
+      borderWidth: {
+        2.5: '0.1875rem',
       }
      
     },

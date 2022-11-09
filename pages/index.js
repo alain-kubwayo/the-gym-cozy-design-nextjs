@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import Awards from '../components/sections/Awards'
+import Clients from '../components/sections/Clients'
+import Designer from '../components/sections/Designer'
 import Help from '../components/sections/Help'
 import Hero from '../components/sections/Hero'
+import Partners from '../components/sections/Partners'
 
 export default function Home() {
   return (
@@ -13,7 +17,11 @@ export default function Home() {
       </Head>
 
       <Hero />
+      <Awards />
       <Help />
+      <Clients />
+      <Designer />
+      <Partners />
       
     </div>
   )
