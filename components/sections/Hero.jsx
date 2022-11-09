@@ -14,7 +14,7 @@ const Hero = () => {
                     <div className="mt-10 mb-6">
                         <Button style="">See How We <br className="block md:hidden" /> Work & How We Can <br className="block md:hidden" />Do</Button>
                     </div>
-                    <Image src="/assets/hero.png" width={740} height={853} className="mt-20 -mb-12 lg:absolute -bottom-32 lg:-right-80 xl:-right-20" />
+                    <Image src="/assets/hero.png" width={740} height={853} className="mt-20 -mb-12 lg:absolute -bottom-32 lg:-right-80 xl:-right-20" alt="Hero Noise" />
                 </div>
             </Wrapper>
         </section>

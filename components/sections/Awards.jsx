@@ -72,12 +72,12 @@ const Awards = () => {
                         <div className="flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center justify-end h-full lg:gap-x-10 px-3.75">
                             <div className="flex flex-col gap-y-10">
                                 {
-                                    firstAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
+                                    firstAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" key={accr.src} />)
                                 }
                             </div>
                             <div className="flex flex-col gap-y-10 lg:gapy-y-0 items-center lg:justify-between h-full px-3.75">
                                 {
-                                    secondAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" />)
+                                    secondAccreditors.map(accr => <Image src={accr.src} width={accr.width} height={accr.height} alt="Accreditor" key={accr.src} />)
                                 }
                             </div>
                         </div>
