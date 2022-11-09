@@ -8,7 +8,7 @@ const Footer = () => {
         for(let i=0; i<7; i++){
             result.push(
                 () => (
-                <li className="m-0.75 flex items-center justify-center h-[24px] w-[24px] bg-[#1da1f2]">
+                <li className="m-0.75 flex items-center justify-center h-6 w-6 bg-tertiary-200">
                     <Link href="">
                         <Image src="/assets/footer/social.svg" width={12} height={12} alt="Icon" />
                     </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
                             <li className="py-1 lg:mr-8">Blog</li>
                             <li className="py-1 lg:mr-8">Contact</li>
                         </ul>
-                        <div className="flex flex-col items-center gap-4 lg:flex-row">
+                        <div className="flex flex-col items-center gap-4 xl:flex-row">
                             <div className="flex items-center">
                                 <Image src="/assets/footer/asset-1.webp" width={20} height={20} alt="Icon" />
                                 <p className="pl-2 text-tertiary-100 text-xs-md">San Diego Digital Designers</p>
@@ -45,8 +45,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-xs lg:mt-[40px] lg:mx-[15px] mb-0 py-6 px-0 border-t border-primary-400 flex flex-col gap-y-8 lg:flex-row justify-between items-center">
-                    <div className="flex lg:space-x-10 lg:max-w-[40rem] flex-wrap gap-8 lg:gap-0">
+                <div className="text-xs lg:mt-10 lg:mx-3.75 mb-0 py-6 px-0 border-t border-primary-400 flex flex-col gap-y-8 lg:flex-row justify-between items-center">
+                    <div className="flex flex-wrap gap-8 lg:gap-10 lg:max-w-2xl">
                         <div>
                             <Image src="/assets/footer/asset-2.svg" width={140} height={53} alt="Image" />
                             <p className="text-center">BBB Rating: +A</p>
@@ -58,7 +58,7 @@ const Footer = () => {
                             <Image src="/assets/footer/asset-4.png" width="200" height="50" alt="Image" />
                         </div>
                     </div>
-                    <div className="flex items-center justify-end lg:basis-[40rem] gap-12 flex-grow flex-col lg:flex-row">
+                    <div className="flex flex-col items-center justify-end flex-grow gap-12 lg:basis-40rem lg:flex-row">
                         <p className="">Made with ❤️ in beautiful, sunny San Diego. ©2021</p>
                         <ul className="flex gap-4 text-primary-400">
                             <li>Privacy</li>

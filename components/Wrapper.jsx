@@ -1,6 +1,6 @@
 const Wrapper = ({children, style}) => {
     return ( 
-        <div className={`max-w-[1400px] mx-auto w-full px-8 lg:px-3 relative ${style}`}>{children}</div>
+        <div className={`max-w-primary mx-auto w-full px-8 md:px-5 lg:px-6 relative ${style}`}>{children}</div>
      );
 }
  

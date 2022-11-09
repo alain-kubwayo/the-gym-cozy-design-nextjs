@@ -41,11 +41,11 @@ const partners = [
 
 const Partners = () => {
     return ( 
-        <section className="bg-secondary-200">
+        <section className="py-20 bg-secondary-200">
             <Wrapper>
-                <h4 className="text-3xl italic text-center font-fraunces72 text-primary-300">More than 150 happy clients</h4>
-                <div className="flex justify-between py-8">
-                    {partners.map(partner => <Image src={partner.src} width={partner.width} height={partner.height} alt="Partner" key={partner.src} />)}
+                <h4 className="pb-10 text-3xl italic text-center font-fraunces72 text-primary-300">More than 150 happy clients</h4>
+                <div className="flex flex-col flex-wrap justify-center w-full gap-10 py-8 gap-y-10 lg:flex-row lg:w-auto">
+                    {partners.map(partner => <Image src={partner.src} width={partner.width} height={partner.height} alt="Partner" key={partner.src} className="self-center lg:self-start" />)}
                 </div>
             </Wrapper>
         </section>

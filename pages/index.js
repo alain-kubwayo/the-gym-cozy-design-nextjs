@@ -18,11 +18,10 @@ export default function Home() {
 
       <Hero />
       <Awards />
+      <Clients />
+      <Partners />
+      <Designer />
       <Help />
-      {/* <Clients /> */}
-      {/* <Designer /> */}
-      {/* <Partners /> */}
-      
     </div>
   )
 }
