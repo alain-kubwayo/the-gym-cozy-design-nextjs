@@ -15,16 +15,16 @@ const Navbar = () => {
                     <Link href="/">
                         <li className="py-7 px-4 hover:-translate-y-0.5 duration-300 hover:text-primary-300">Get Cozy</li>
                     </Link>   
-                    <Link href="/">
+                    <Link href="/activities">
                         <li className="py-7 px-4 hover:-translate-y-0.5 duration-300 hover:text-primary-300">What we do</li>
                     </Link>   
-                    <Link href="/">
+                    <Link href="/work">
                         <li className="py-7 px-4 hover:-translate-y-0.5 duration-300 hover:text-primary-300">Our work</li>
                     </Link>   
-                    <Link href="/">
+                    <Link href="/blog">
                         <li className="py-7 px-4 hover:-translate-y-0.5 duration-300 hover:text-primary-300">The blog</li>
                     </Link>   
-                    <Link href="/">
+                    <Link href="/greetings">
                         <li className="py-7 px-4 hover:-translate-y-0.5 duration-300 hover:text-primary-300">Say hi</li>
                     </Link>   
                 </ul>

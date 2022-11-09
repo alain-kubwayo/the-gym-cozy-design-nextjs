@@ -7,9 +7,10 @@ const Designer = () => {
         <section>
             <div className="relative lg:h-500">
                 <video width="" height="" autoPlay muted loop className="absolute object-cover w-full h-full">
-                        <source src="/assets/designer/video.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <source src="/assets/designer/video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div className="absolute inset-0 w-full h-full bg-black opacity-80"></div>
                 <Wrapper style="overflow-hidden flex items-center py-10 lg:py-0 px-6 h-full">
                     <div className="flex flex-col justify-center md:px-20 lg:flex-row lg:gap-x-20">
                         <div className="flex items-center justify-center">
