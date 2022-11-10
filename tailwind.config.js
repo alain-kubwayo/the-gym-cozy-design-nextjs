@@ -48,6 +48,11 @@ module.exports = {
         'noise': 'url("/assets/noise.webp")',
         'text-noise': 'url("/assets/noise-2.webp")',
         'awards-noise': 'url("/assets/awards/awards-noise.webp")',
+        'awards-texture':"url('/assets/awards/awards-img-1.svg'),linear-gradient(180deg,rgba(213,173,143,.3),rgba(213,173,143,.3)),url('/assets/noise-2.webp')",
+      },
+
+      backgroundSize:{
+        'awards-texture-size':"50px,auto,cover"
       },
       padding: {
         3.75: '0.9375rem',

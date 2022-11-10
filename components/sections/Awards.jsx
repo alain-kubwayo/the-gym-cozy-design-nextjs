@@ -57,7 +57,7 @@ const secondAccreditors = [
 
 const Awards = () => {
     return ( 
-        <section className="bg-awards-noise bg-primary-100">
+        <section className="bg-no-repeat bg-cover bg-awards-texture bg-primary-100">
             <Wrapper style="lg:max-w-secondary">
                 <div className="grid py-40 lg:grid-cols-2">
                     <div className="lg:pl-120px lg:pr-7 lg:pb-20">
